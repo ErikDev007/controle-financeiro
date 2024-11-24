@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
-import Form from "./components/Form";
+import Form from "./components/form/index";
 
 const App = () => {
   const data = localStorage.getItem("transactions");
