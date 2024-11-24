@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Grid from "../Grid/index";
+import Grid from "../grid/index";
 import * as C from "./styles";
 
 const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
